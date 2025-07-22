@@ -1,0 +1,28 @@
+.loading-header {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.loading-content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.loading-content h2 {
+  font-size: 3.5rem;
+  margin-bottom: 16px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.loading-content p {
+  font-size: 1.4rem;
+  opacity: 0.95;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 40px;
+}
