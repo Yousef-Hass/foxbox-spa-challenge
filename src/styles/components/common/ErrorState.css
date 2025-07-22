@@ -1,0 +1,54 @@
+.error {
+  text-align: center;
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.error h3 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.error p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.error-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.error-actions .btn {
+  min-width: 120px;
+}
+
+@media (max-width: 768px) {
+  .error h3 {
+    font-size: 2rem;
+  }
+
+  .error p {
+    font-size: 1.1rem;
+  }
+
+  .error-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .error-actions .btn {
+    width: 200px;
+  }
+}
